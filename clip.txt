@@ -1,0 +1,7 @@
+Moments the clip must show, in order:
+1. [x] Overwatch heroes (Reaper, Soldier) replace Doom's monsters in the first seconds, the "OVERWATCH TAKEOVER" banner shows, and the Pulse Pistols shoot blue tracers that kill them (kill feed "ELIMINATED ...").
+2. [x] Roadhog throws his chain hook and drags the player toward him (chain visible).
+3. [x] Mercy flies in and resurrects a fallen hero (kill feed "MERCY resurrected ...", chime).
+4. [x] The ultimate meter fills, the player throws a Pulse Bomb, a big blue blast kills a crowd of heroes, then "PLAY OF THE GAME" appears.
+Interactions with Doom: the player's pistols, the pulse bomb and the map's own walls and monsters (infighting from bomb blasts, Mercy raising corpses).
+Notes: the demo timeline lives in the mod (ow_demo setting turned on by demo.cfg) because "wait" in demo.cfg did not delay anything in this setup. Weak spot: the pulse bomb blast is quick, and the pilot sometimes faces away from it.

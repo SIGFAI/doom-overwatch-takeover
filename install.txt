@@ -1,0 +1,1 @@
+Put mod.pk3 next to GZDoom and run it with Freedoom 2: gzdoom -iwad freedoom2.wad -file mod.pk3. Heroes replace Doom's monsters; shoot with the Pulse Pistols, fill the ultimate meter with kills, and press U to throw the pulse bomb.

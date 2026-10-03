@@ -1,0 +1,3 @@
+AddKeySection "Overwatch" OverwatchKeys
+AddMenuKey "Ultimate (pulse bomb)" "netevent ow_ult"
+DefaultBind U "netevent ow_ult"
