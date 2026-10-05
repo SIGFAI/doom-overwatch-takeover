@@ -1,0 +1,79 @@
+{
+  "id": "sigf/doom-overwatch-takeover",
+  "version": "1.0.0",
+  "name": "Overwatch Takeover",
+  "tagline": "Bring Overwatch into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "doom",
+      "role": "host",
+      "engine": "GZDoom 4.14.2 + Freedoom 2"
+    },
+    {
+      "game": "overwatch",
+      "role": "guest",
+      "label": "Overwatch",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "gzdoom"
+    },
+    {
+      "id": "freedoom2"
+    }
+  ],
+  "install": [
+    {
+      "game": "doom",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "doom-overwatch-takeover.pk3",
+          "dst": "{app}/mod.pk3",
+          "unpack": false,
+          "url": "https://github.com/SIGFAI/doom-overwatch-takeover/releases/download/v1.0.0/doom-overwatch-takeover.pk3",
+          "sha256": "25d693f50ae5def912cd82df5c772640844c008c32604702aaa0755117d24859",
+          "size": 579625
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "doom",
+      "args": [
+        "-file",
+        "{app}/mod.pk3"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "doom-overwatch-takeover.pk3",
+      "url": "https://github.com/SIGFAI/doom-overwatch-takeover/releases/download/v1.0.0/doom-overwatch-takeover.pk3",
+      "sha256": "25d693f50ae5def912cd82df5c772640844c008c32604702aaa0755117d24859",
+      "size": 579625
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/doom-overwatch-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "doom",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:22:58.550Z",
+  "notes": [
+    "Put mod.pk3 next to GZDoom and run it with Freedoom 2: gzdoom -iwad freedoom2.wad -file mod.pk3. Heroes replace Doom's monsters; shoot with the Pulse Pistols, fill the ultimate meter with kills, and press U to throw the pulse bomb."
+  ]
+}
