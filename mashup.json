@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "Overwatch Takeover",
   "tagline": "Bring Overwatch into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Eliminate every hero: Soldier, Reaper, Roadhog, Bastion and Mercy replace Doom's monsters.",
+    "Shoot with the Pulse Pistols; each elimination fills your ultimate meter.",
+    "Press U when the ultimate is full to throw a pulse bomb that locks onto the nearest hero.",
+    "Watch out for Roadhog's hook and kill Mercy first, she resurrects fallen heroes."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -72,8 +78,5 @@
     "id": "doom",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:22:58.550Z",
-  "notes": [
-    "Put mod.pk3 next to GZDoom and run it with Freedoom 2: gzdoom -iwad freedoom2.wad -file mod.pk3. Heroes replace Doom's monsters; shoot with the Pulse Pistols, fill the ultimate meter with kills, and press U to throw the pulse bomb."
-  ]
+  "built_at": "2026-10-05T15:22:58.550Z"
 }
